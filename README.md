@@ -1,8 +1,18 @@
 # MCRO-PDF-Object-Hasher
 Drop pdf files from the "MCRO Evidentiary Dataset" into the folder and all internal objects are extracted, hashed, and inserted into a csv table along with digital signature data (pdfsig) and metadata author and creator (exiftool)
 
+The "MCRO Evidentiary Dataset" consists of 3,601 total PDF files which are purported to be authentic Minnesota Judicial Records - BUT THEY ARE NOT. Machine generated, mass forgery spanning 163 supposed cases in just this set. 
 
-The "MCRO Evidentiary Dataset" consists of 3,601 total PDF files which are purported to be authentic Minnesota Judicial Records - BUT THEY ARE NOT. Machine generated, mass forgery spanning 163 supposed cases in just this set. Among the fraud is:
+**Guertin v. Walz, et al. 25-cv-2670-PAM-DLM, D. Minn 2025:**
+https://www.MnCourtFraud.com/docket/70633540/guertin-v-walz/
+https://www.courtlistener.com/docket/70633540/guertin-v-walz/
+
+**Matthew Guertin v. Tim Walz, et al. 25-2476, 8th Cir. 2025:**
+https://www.courtlistener.com/docket/70929923/matthew-guertin-v-tim-walz/
+
+---
+
+Among the fraud is:
 
 **40 hash matched USPS "Returned Mail" filings:**
     https://MnCourtFraud.com/recap/gov.uscourts.mnd.226147/gov.uscourts.mnd.226147.59.0.pdf
@@ -23,10 +33,6 @@ The "MCRO Evidentiary Dataset" consists of 3,601 total PDF files which are purpo
 **Machine generated batches of fraudulent "Finding of Incompetency and Order" filings with clone X.509 signatures
   Same signing time, and same byte ranges, with 12 clones in a single group spanning different case numbers:**
     https://MnCourtFraud.com/recap/gov.uscourts.mnd.226147/gov.uscourts.mnd.226147.15.2.pdf
-    
-**Visit the Courtlistener Docket for Guertin v. Walz, et al. 25-cv-2670-PAM-DLM, D. Minn 2025 for more information:**
-    https://www.MnCourtFraud.com/docket/70633540/guertin-v-walz/
-    https://www.courtlistener.com/docket/70633540/guertin-v-walz/
 
 **The "MCRO Evidentiary Dataset" of 3,601 AI gneerated Minnesota court records (all with valid, full doc, X.509 court sigs) can be
   downloaded at:** 
@@ -36,7 +42,7 @@ The "MCRO Evidentiary Dataset" consists of 3,601 total PDF files which are purpo
     https://Matt1Up.Substack.com/p/evidence
     https://MnCourtFraud.substack.com/p/mcro-files
 
-
+---
 
 This repository/script watches a `pdf/` folder for new PDF files and, for each PDF:
 
