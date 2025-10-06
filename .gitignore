@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# --- PyInstaller builds ---
+build/
+dist/
+*.spec
+
+# --- Editors / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Your app runtime artifacts (ignore if you don't want them versioned) ---
+.locks/
+pdf-objects/
+hashed-objects/
+objects.tsv
+hash-count.tsv
+processed.tsv
